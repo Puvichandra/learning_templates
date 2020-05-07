@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+{% extends "basic_app/base.html" %}
+
+{% block body_block %}
+<h1> Welcome to Home page</h1>
+<h3> Hi I 'm Chandrasekar'</h3>
+
+
+ <h3>{{ chance|cut:'kid' }}</h3>
+ <h4>Today date is {{ now }}</h4>
+
+ {% endblock %}
